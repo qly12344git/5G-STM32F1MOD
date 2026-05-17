@@ -29,15 +29,15 @@
 
 ## 下单说明
 1、选择导出Gerber或者直接下单
-<img src="下单1.png" width="600">
+<img src="image/下单1.png" width="600">
 2、点“否”
-<img src="下单2.png" width="600">
+<img src="image/下单2.png" width="600">
 3、点“否，继续下单”
-<img src="下单3.png" width="600">
+<img src="image/下单3.png" width="600">
 
 4、下单参数：板厚1mm,选择3313层压，选择+/-20%阻抗，其他参数按免费选（如果不会那么你不适合这个项目）
-<img src="参数1.png" width="600">
-<img src="参数2.png" width="600">
+<img src="image/参数1.png" width="600">
+<img src="image/参数2.png" width="600">
 
 
 ## 组装教程
@@ -47,35 +47,35 @@
 检查标准：
 1、typec接口焊点无连锡
 2、24pin排座接点焊接牢固，用镊子一个一个摇晃焊点不松动
-<img src="接口.png" width="600">
+<img src="image/接口.png" width="600">
 
 ### 第二部分 基础供电组装
 依次焊接这三处供电区域
 
-<img src="供电.png" width="600">
+<img src="image/供电.png" width="600">
 焊接完成后接上typec，测量以下三个点，依次是3.3V、5V、7.8V、3.3V
-<img src="供电2.png" width="600">
+<img src="image/供电2.png" width="600">
 
 ### 第三部分 CH334+CH340组装及校验
 1.1、先焊接此处CH334和两颗电容
-<img src="CH334F.png" width="600">
+<img src="image/CH334F.png" width="600">
 1.2、焊接完成后，将typec插到电脑上，打开电脑上的设备管理器，查看“通用串行总线控制器”下是否有出现“通用USB集线器”
-<img src="CH334F2.png" width="600">
+<img src="image/CH334F2.png" width="600">
 
 2.1、焊接此处两颗CH340芯片和电容
-<img src="CH340.png" width="600">
+<img src="image/CH340.png" width="600">
 2.2、焊接完成后，将typec插到电脑上，打开电脑上的设备管理器，查看“端口（COM和LPT）”下是否有出现“USB-SERIAL CH340和USB-SERIAL CH340K”
-<img src="CH3402.png" width="600">
+<img src="image/CH3402.png" width="600">
 
 ### 第四部分 固件烧录
 1、请自行焊接好除7P调试接口以外的所有电路（即下图白框，绿框的磁吸接口也可以先不焊接）
-<img src="固件烧录.png" width="600">
+<img src="image/固件烧录.png" width="600">
 
 2、焊接完成后，将typec插到电脑上，打开“固件烧录工具”，选择对应的CH340K对应端口，选择系统固件，选择“DTR为低电平，RTS高电平”
-<img src="下载.png" width="600">
+<img src="image/下载.png" width="600">
 
 3、点击“开始编程”，右侧应当出现“IF”，带表正常，等待进度条走完。（如有报错，请检查你前面的焊接的单片机和其他电路部分是否短路或者虚焊）
-<img src="下载2.png" width="600">
+<img src="image/下载2.png" width="600">
 
 4、下载完成后重新插拔typec，屏幕正常点亮的话，那么恭喜你，成功了
 
@@ -87,7 +87,7 @@
 
 2、打开“串口通信工具”,选择对应的CH340K对应端口，选择115200波特率，发送授权码
 
-<img src="授权.png" width="600">
+<img src="image/授权.png" width="600">
 
 3、授权完成后，屏幕将自动跳转至主页
 
