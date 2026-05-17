@@ -29,13 +29,17 @@
 
 ## 下单说明
 1、选择导出Gerber或者直接下单
+
 <img src="image/下单1.png" width="600">
 2、点“否”
+
 <img src="image/下单2.png" width="600">
 3、点“否，继续下单”
+
 <img src="image/下单3.png" width="600">
 
 4、下单参数：板厚1mm,选择3313层压，选择+/-20%阻抗，其他参数按免费选（如果不会那么你不适合这个项目）
+
 <img src="image/参数1.png" width="600">
 <img src="image/参数2.png" width="600">
 
