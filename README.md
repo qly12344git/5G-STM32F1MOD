@@ -34,6 +34,7 @@
 2、点“否”
 
 <img src="image/下单2.png" width="600">
+
 3、点“否，继续下单”
 
 <img src="image/下单3.png" width="600">
